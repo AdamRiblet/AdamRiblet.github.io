@@ -4,7 +4,7 @@ $(document).ready(function() {
     var total = 0;
     
     // add image swap and click handler to each image in table
-    $.getJSON("https://github.com/parkland-CSC175/parkland-CSC175.github.io/blob/master/content.json", function(data){
+    $.getJSON("content.json", function(data){
         console.log(content.json);
     $("ul img").each(function() {
         var oldURL = $(this).attr("src"); // gets the src attribute

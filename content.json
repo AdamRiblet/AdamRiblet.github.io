@@ -1,5 +1,4 @@
-{
-    "Extinguisher" : [
+[
         {
             "oldUrl":"images/10lb_CO2.jpg",
             "newUrl":"images/10lb_CO2_info.jpg"
@@ -36,5 +35,4 @@
         }
 
  ]
-
-}
+ 
