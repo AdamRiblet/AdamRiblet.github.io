@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>51 Fire and Safety</title>
+    <link type="text/css" rel="stylesheet" href="cafe.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="cafe.js"></script>
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+  <ul>
+	<a class="active" href="index.html">Shop</a>	
+	<li><a href="Contact.html">Contact</a></li>
+	<li><a href="About.html">About</a></li>
+</ul>
+</div>
+
+    <header>
+        <img src="images/logo1.png" alt="Tuxedo Cat Coffee"/>
+    </header>
+	
+    <main>
+        <form id="order_form" name="order_form" action="checkout.html" method="get">
+            <section id="menu">
+            	<h2>Menu</h2>
+            	<p>Click the item you would like to add it to your order.</p>
+            	<ul>
+					<p>*Fire Extinguisher's</p>
+            		<li><a href="#"><img id="" src="" alt="espresso"/></a></li>
+            		<li><a href="#"><img id="images/water_fire_extinguisher_info.jpg" src="images/water_fire_extinguisher.jpg" alt="latte"/></a></li>
+            		<li><a href="#"><img id="images/BC_10lb_red_line_cartridge_operated_info.png" src="images/BC_10lb_red_line_cartridge_operated.png" alt="cappuccino"/></a></li>
+            		<li><a href="#"><img id="images/class_D_info.png" src="images/class_D.png" alt="coffee"/></a></li>
+            		<li><a href="#"><img id="images/10lb_ABC_stored_pressure_info.jpg" src="images/10lb_ABC_stored_pressure.jpg" alt="10lbABC"/></a></li>
+					<li><a href="#"><img id="images/K_class_info.jpg" src="images/K_class.jpg" alt="scone"/></a></li>
+
+					<p>*Bracket's</p>
+					<li><a href="#"><img id="images/Bracket_10lb_HD_Red_Line_info.jpg" src="images/Bracket_10lb_HD_Red_Line.jpg" alt="scone"/></a></li>
+					<li><a href="#"><img id="images/20lb_cart_op_bracket_info.jpg" src="images/20lb_cart_op_bracket.jpg" alt="scone"/></a></li>
+					<li><a href="#"><img id="images/Amerex_Cylinder_Galvanized_Bracket_info.jpg" src="images/Amerex_Cylinder_Galvanized_Bracket.jpg" alt="scone"/></a></li>
+
+					<p>*Signs, cabinets, fire depart. equipment,(boots, helm, coats etc..)  </p>
+            	</ul>
+            </section>
+
+            <section>
+            	<h2>Your Order</h2>
+            	<section>
+            		<select id="order" name="order" size="6">
+            		</select>
+            		<p id="total">&nbsp;</p>            		
+           		</section>
+            	<section id="buttons">
+           			<input type="button" name="place_order" id="place_order" value="Place Order">
+           			<input type="button" name="clear_order" id="clear_order" value="Clear Order">				            		
+            	</section>
+            </section>   
+
+
+
+        </form>
+    </main> 
+</body>
+</html>
