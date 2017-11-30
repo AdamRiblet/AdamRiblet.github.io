@@ -71,11 +71,24 @@ function renderBlog(blog){
 	container.appendChild(articleWrapper);	
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 // use this for part 2 of the assignment
 var blogArticles = [{
 		title: "We are the saviors of fire exstinguishers!",
 		author: "We are a small town business with great intentions!!",
 		publishedOn: "",
+		url: "http://www.paulirish.com/2015/advanced-performance-audits-with-devtools/",
 		content: [{
 				heading: "",
 				paragraph: "*how we originated"
