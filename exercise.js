@@ -11,10 +11,10 @@ $(document).ready(function(){
 	});
 	*/
 	
-	var baseUrl = "https://AdamRiblet.github.io/content.json";
+	var baseUrl = "https://AdamRiblet.github.io/";
 	
 	// setup links using data from episode-list
-	$.get(baseUrl, function(data){
+	$.get(baseUrl + "api/extinguisher-list.json", function(data){
 		$("#movie-menu").empty(); // remove any old links
 		// data is an array of episode objects
 		$.each(data, function(i, episode){  //loop through each element in the data retrieved
@@ -26,7 +26,7 @@ $(document).ready(function(){
 			$li.append($anchor); //add the anchor to the li
 			$("#movie-menu").append($li);  //then add the li to the list in html
 			
-			$anchor.click(createClickHandler(baseUrl));	//when one of those li anchors is clicked, invoke the createClickHandler function
+			$anchor.click(createClickHandler(baseUrl + episode.url));	//when one of those li anchors is clicked, invoke the createClickHandler function
 		});		
 	});
 	/*
