@@ -8,20 +8,6 @@ function renderBlogs(){
 }
 
 function renderBlog(blog){
-	/*
-		<div class="article-wrapper">
-	
-			<h1>TITLE</h1>
-			<h4>AUTHOR</h4>
-			<h4>PUBLISHEDON</h4>
-	
-			<div class="content-wrapper">
-				<h2>HEADING</h2>
-				<p>PARAGRAPH</p>
-			</div>
-		</div>
-	*/
-	
 	var articleWrapper = document.createElement("div");
 	var title = document.createElement("h1");
 	var author = document.createElement("h4");
@@ -47,14 +33,6 @@ function renderBlog(blog){
 	
 	for(var i = 0; i < contents.length; i++){
 		var content = contents[i];
-		
-		/*
-			<div class="content-wrapper">
-				<h2>HEADING</h2>
-				<p>PARAGRAPH</p>
-			</div>
-		*/
-		
 		var heading = document.createElement("h2");
 		var parag = document.createElement("p");
 		
