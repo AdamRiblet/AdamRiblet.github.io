@@ -7,17 +7,17 @@
 	{
 		"id": 2,
 		"url": "api/episode-2.json",
-		"name": "Attack of the Clones"
+		"name": "Brackets"
 	},
 	{
 		"id": 3,
 		"url": "api/episode-3.json",
-		"name": "Revenge of the Sith"
+		"name": "Fire Equipment"
 	},
 	{
 		"id": 4,
 		"url": "api/episode-4.json",
-		"name": "A New Hope"
+		"name": "Fire Truck Tires"
 	},
 	{
 		"id": 5,
