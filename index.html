@@ -1,64 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>51 Fire and Safety</title>
-    <link type="text/css" rel="stylesheet" href="cafe.css">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="cafe.js"></script>
-</head>
-
-<body>
-<div class="topnav" id="myTopnav">
-  <ul>
-	<a class="active" href="index.html">Shop</a>	
-	<li><a href="Contact.html">Contact</a></li>
-	<li><a href="About.html">About</a></li>
-</ul>
-</div>
-
-    <header>
-        <img src="images/logo1.png" alt="Tuxedo Cat Coffee"/>
-    </header>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>CSC 175</title>
 	
-    <main>
-        <form id="order_form" name="order_form" action="checkout.html" method="get">
-            <section id="menu">
-            	<h2>Menu</h2>
-            	<p>Click the item you would like to add it to your order.</p>
-            	<ul>
-					<p>*Fire Extinguisher's</p>
-            		<li><a href="#"><img id="images/20lb_cart_op_bracket_info.jpg" src="images/20lb_cart_op_bracket.jpg" alt="espresso"/></a></li>
-            		<li><a href="#"><img id="images/water_fire_extinguisher_info.jpg" src="images/water_fire_extinguisher.jpg" alt="latte"/></a></li>
-            		<li><a href="#"><img id="images/BC_10lb_red_line_cartridge_operated_info.png" src="images/BC_10lb_red_line_cartridge_operated.png" alt="cappuccino"/></a></li>
-            		<li><a href="#"><img id="images/class_D_info.png" src="images/class_D.png" alt="coffee"/></a></li>
-            		<li><a href="#"><img id="images/10lb_ABC_stored_pressure_info.jpg" src="images/10lb_ABC_stored_pressure.jpg" alt="10lbABC"/></a></li>
-					<li><a href="#"><img id="images/K_class_info.jpg" src="images/K_class.jpg" alt="scone"/></a></li>
+	<link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+<nav class="navbar navbar-default">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+			aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Star Wars</a>
+		</div>
 
-					<p>*Bracket's</p>
-					<li><a href="#"><img id="images/Bracket_10lb_HD_Red_Line_info.jpg" src="images/Bracket_10lb_HD_Red_Line.jpg" alt="scone"/></a></li>
-					<li><a href="#"><img id="images/20lb_cart_op_bracket_info.jpg" src="images/20lb_cart_op_bracket.jpg" alt="scone"/></a></li>
-					<li><a href="#"><img id="images/Amerex_Cylinder_Galvanized_Bracket_info.jpg" src="images/Amerex_Cylinder_Galvanized_Bracket.jpg" alt="scone"/></a></li>
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
 
-					<p>*Signs, cabinets, fire depart. equipment,(boots, helm, coats etc..)  </p>
-            	</ul>
-            </section>
-
-            <section>
-            	<h2>Your Order</h2>
-            	<section>
-            		<select id="order" name="order" size="6">
-            		</select>
-            		<p id="total">&nbsp;</p>            		
-           		</section>
-            	<section id="buttons">
-           			<input type="button" name="place_order" id="place_order" value="Place Order">
-           			<input type="button" name="clear_order" id="clear_order" value="Clear Order">				            		
-            	</section>
-            </section>   
-
-
-
-        </form>
-    </main> 
+<div class="container">
+	
+	<div class="row">
+		<div class="col-md-12">
+			
+			<ul id="movie-menu">
+				<li><a id="episode-1" href="#" data-target="episode-one">The Phantom Menace</a></li>
+				<li><a id="episode-2" href="#" data-target="episode-two">Attack of the Clones</a></li>
+				<li><a id="episode-3" href="#" data-target="episode-three">Revenge of the Sith</a></li>
+				<li><a id="episode-4" href="#" data-target="episode-four">A New Hope</a></li>
+				<li><a id="episode-5" href="#" data-target="episode-five">The Empire Strikes Back</a></li>
+				<li><a id="episode-6" href="#" data-target="episode-six">Return of the Jedi</a></li>
+			</ul>
+			
+		</div>
+	</div>
+	
+	<div id="episode-container" class="row episode-info">
+		<div class="col-md-12">
+			<h1 id="episode-title">{TITLE}</h1>
+			<p id="episode-desc">{DESCRIPTION}</p>
+		</div>
+	</div>
+	
+</div>
+	
+<!-- JS -->
+<!-- this is the jQuery CDN reference. You need internet access for this file! -->
+<script src="https://code.jquery.com/jquery-2.1.4.js" type="text/javascript"></script>
+<script src="exercise.js" type="text/javascript"></script>
 </body>
 </html>
