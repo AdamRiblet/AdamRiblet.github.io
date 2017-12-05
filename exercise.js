@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 	*/
 	
-	var baseUrl = "content.json";
+	var baseUrl = "http://AdamRiblet.github.io/content.json";
 	
 	// setup links using data from episode-list
 	$.get(baseUrl, function(data){
