@@ -1,0 +1,43 @@
+[
+	{
+		"id": 1,
+		"url": "api/exstinguisher-1.json",
+		"name": "The Fisrt exstinguisher"
+    }
+    //,
+	// {
+	// 	"id": 2,
+	// 	"url": "api/episode-2.json",
+	// 	"name": "Attack of the Clones"
+	// },
+	// {
+	// 	"id": 3,
+	// 	"url": "api/episode-3.json",
+	// 	"name": "Revenge of the Sith"
+	// },
+	// {
+	// 	"id": 4,
+	// 	"url": "api/episode-4.json",
+	// 	"name": "A New Hope"
+	// },
+	// {
+	// 	"id": 5,
+	// 	"url": "api/episode-5.json",
+	// 	"name": "The Empire Strikes Back"
+	// },
+	// {
+	// 	"id": 6,
+	// 	"url": "api/episode-6.json",
+	// 	"name": "Return of the Jedi"
+	// },
+	// {
+	// 	"id": 7,
+	// 	"url": "api/episode-7.json",
+	// 	"name": "The Force Awakens"
+	// },
+	// {
+	// 	"id": 8,
+	// 	"url": "api/episode-8.json",
+	// 	"name": "The Last Jedi"
+	// }
+]
