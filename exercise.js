@@ -11,10 +11,10 @@ $(document).ready(function(){
 	});
 	*/
 	
-	var baseUrl = "http://jrding.github.io/";
+	var baseUrl = "content.json";
 	
 	// setup links using data from episode-list
-	$.get(baseUrl + "api/episode-list.json", function(data){
+	$.get(baseUrl, function(data){
 		$("#movie-menu").empty(); // remove any old links
 		// data is an array of episode objects
 		$.each(data, function(i, episode){  //loop through each element in the data retrieved
