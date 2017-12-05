@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 	*/
 	
-	var baseUrl = "http://parkland-csc175.github.io/instructor-example/";
+	var baseUrl = "https://AdamRiblet.github.io/";
 	
 	// setup links using data from episode-list
 	$.get(baseUrl + "api/episode-list.json", function(data){
