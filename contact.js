@@ -48,19 +48,6 @@ function renderBlog(blog){
 	var container = document.getElementById("blog-container");
 	container.appendChild(articleWrapper);	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 // use this for part 2 of the assignment
 var blogArticles = [{
 		title: "Contact us for more information!",
@@ -83,7 +70,7 @@ var blogArticles = [{
 		author: "'ariblet3@yahoo.com'",
 		publishedOn: "We would love to hear feedback! Also, if you could not find an item, we can order it for you!",
 		content: [{
-				heading: "Slow",
+				heading: "",
 				paragraph: ""
 			},{
 				heading: "",
