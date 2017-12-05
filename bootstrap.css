@@ -11,6 +11,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: solid red;
 }
 article,
 aside,
@@ -167,7 +168,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   padding: .35em .625em .75em;
   margin: 0 2px;
-  border: 1px solid red;
+  border: 1px solid #c0c0c0;
 }
 legend {
   padding: 0;
