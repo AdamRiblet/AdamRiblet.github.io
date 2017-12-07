@@ -56,7 +56,7 @@ $(document).ready(function(){
 				
 				$("#episode-title").text(data.title);
 				$("#episode-desc").text(data.description);
-				$("#episode-desc1").text(data.description1);
+				$("#episode-desc1").text(data.img);
 			});
 		}
 	}
