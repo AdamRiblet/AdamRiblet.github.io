@@ -15,7 +15,7 @@ $(document).ready(function(){
 	
 	// setup links using data from episode-list
 	$.get(baseUrl + "api/episode-list.json", function(data){
-		$.each(data.items, function (i, f) {
+		$.each(data.url, function (i, f) {
     $("ul").append("<li><img src='" + f.url + 
                    "' / > Caption: " + 
                    f.caption 
@@ -62,7 +62,7 @@ $(document).ready(function(){
 				
 				$("#episode-title").text(data.title);
 				$("#episode-desc").text(data.description);
-				$("#episode-pic").text(data.img);
+				$("#episode-pic").text(data.url);
 			});
 		}
 	}
