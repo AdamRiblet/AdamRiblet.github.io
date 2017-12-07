@@ -2,7 +2,6 @@
 	{
 		"id": 1,
 		"url": "api/episode-1.json",
-		"url1": "api/episode-1.json",
 		"name": "Extinguishers"
 	},
 	{
@@ -34,5 +33,9 @@
 		"id": 7,
 		"url": "api/episode-7.json",
 		"name": "Cabinets"
-	}
+	},
+	{"images":[
+{
+    "bannerImg1":"./images/effy.jpg"
+}]}
 ]

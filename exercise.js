@@ -15,6 +15,12 @@ $(document).ready(function(){
 	
 	// setup links using data from episode-list
 	$.get(baseUrl + "api/episode-list.json", function(data){
+		$.each(data.items, function (i, f) {
+    $("ul").append("<li><img src='" + f.url + 
+                   "' / > Caption: " + 
+                   f.caption 
+                   + " </li>");
+});
 		$("#movie-menu").empty(); // remove any old links
 		// data is an array of episode objects
 		$.each(data, function(i, episode){  //loop through each element in the data retrieved
