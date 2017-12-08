@@ -1,0 +1,40 @@
+{
+    "Extinguisher" : [
+        {
+            "oldUrl":"images/10lb_CO2.jpg",
+            "newUrl":"images/10lb_CO2_info.jpg"
+        },
+
+        {
+            "oldUrl":"images/water_fire_extinguisher.jpg",
+            "newUrl":"images/water_fire_extinguisher.jpg_info.jpg"
+        },
+
+        {
+            "oldUrl":"images/BC_10lb_red_line_cartridge_operated.png",
+            "newUrl":"images/BC_10lb_red_line_cartridge_operated_info.png"
+        },
+
+        {
+            "oldUrl":"images/class_D.png",
+            "newUrl":"images/class_D_info.png"
+        },
+
+        {
+            "oldUrl":"images/10lb_ABC_stored_pressure.jpg",
+            "newUrl":"images/10lb_ABC_stored_pressure_info.jpg"
+        },
+
+        {
+            "oldUrl":"images/K_class.jpg",
+            "newUrl":"images/K_class_info.jpg"
+        },
+
+        {
+            "oldUrl":"images/10lb_CO2.jpg",
+            "newUrl":"images/10lb_CO2_info.jpg"
+        }
+
+ ]
+
+}
