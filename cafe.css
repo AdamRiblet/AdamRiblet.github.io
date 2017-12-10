@@ -65,11 +65,12 @@ ul li {
 	margin-bottom: .7em;
 }
 input {
-    width: 150px;
+    width: 100px;
     margin-right: 5px;
 }
 #buttons {
 	margin-top: 0;
+    padding: 10px;
 }
 
 .topnav {
@@ -98,4 +99,7 @@ input {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+#order{
+    width: 400px;
 }

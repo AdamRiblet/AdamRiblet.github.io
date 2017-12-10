@@ -66,6 +66,42 @@ $(document).ready(function() {
                 total = total + 83.99;
                 order = order + '<option value="scone">$83.99 - 20 lb Amerex Cylinder Galvanized Brackett</option>';
             }
+             else if (oldURL == "images/sign1.jpg") {
+                total = total + 10.00;
+                order = order + '<option value="scone">$10 - Extinguisher Sign 1</option>';
+            }
+            else if (oldURL == "images/sign2.png") {
+                total = total + 15.00;
+                order = order + '<option value="scone">$15 - Extinguisher Sign 2</option>';
+            }
+            else if (oldURL == "images/sign3.jpg") {
+                total = total + 10.00;
+                order = order + '<option value="scone">$15 - Extinguisher Sign 3</option>';
+            }
+            else if (oldURL == "images/cabinet1.jpg") {
+                total = total + 25.00;
+                order = order + '<option value="scone">$25 - Cabinet 1</option>';
+            }
+            else if (oldURL == "images/cabinet2.jpg") {
+                total = total + 45.00;
+                order = order + '<option value="scone">$45 - Cabinet 2</option>';
+            }
+            else if (oldURL == "images/cabinet3.jpg") {
+                total = total + 55.00;
+                order = order + '<option value="scone">$55 - Cabinet 3</option>';
+            }
+             else if (oldURL == "images/boots1.jpg") {
+                total = total + 160.00;
+                order = order + '<option value="scone">$160 - Pair of boots 1</option>';
+            }
+            else if (oldURL == "images/boots2.jpg") {
+                total = total + 130.00;
+                order = order + '<option value="scone">$130 - Pair of boots 2</option>';
+            }
+            else if (oldURL == "images/boots3.jpg") {
+                total = total + 100.00;
+                order = order + '<option value="scone">$100 - Pair of boots 3</option>';
+            }
             
             // display order and total
             $("#order").html( order );

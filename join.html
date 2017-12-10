@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Join Our Email List</title>
+	<link type="text/css" rel="stylesheet" href="button.css">
 	<style>
-    	body {
-		    font-family: Arial, Helvetica, sans-serif;
-		    background-color: white;
-		    margin: 0 auto;
-		    width: 700px;
-		    padding: 10px 25px;
-		    border: 3px solid blue;
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: white;
+			margin: 0 auto;
+			width: 700px;
+			padding: 10px 25px;
+			border: 3px solid blue;
 		}
+		
 		h1 {
-			color: blue;
+			color: White;
 		}
 	</style>
-	
+
 </head>
 
 <body background="images/fire_design.jpg">
 	<main>
-	    <h1>Thanks for joining!</h1>
-	    <h1>Your registration has been submitted!:</h1>
-		<li><a href="index.html">Shop some more!</a>
-                                </li>
-	    <script type="text/javascript">display_data();</script>
+		<img class="img" src="images/thank_you.jpg" height="330px" width="600px" />
+		<h1>Your request has been submitted!</h1>
+		<form>
+			<input class= "button" type="button" value="Shop Some More!" onclick="window.location.href='index.html'"
+			/>
+		</form>
+		<br>
+
+		<!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!-- Add font awesome icons -->
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<script type="text/javascript">
+			display_data();
+		</script>
 	</main>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110950603-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110950603-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'UA-110950603-1');
-</script>
+		gtag('config', 'UA-110950603-1');
+	</script>
 
 </body>
+
 </html>
