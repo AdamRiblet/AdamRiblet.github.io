@@ -9,6 +9,7 @@ $(document).ready(function() {
 	$("#last_name").after("<span></span>");
 	$("#state").after("<span></span>");
 	$("#zip").after("<span></span>");
+	$("#total").after("<span></span>");
 	// the handler for the click event of a submit button
 	$("#email_form").submit(
 		function(e) {
@@ -18,7 +19,7 @@ $(document).ready(function() {
 			var emailPattern = /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b/;
 			var email = $("#email_1").val();
 			if (email == "") { 
-				$("#email_1").next().text("This field is required.");
+				$("#email_1").next().text("Yo! We need your email.");
 				isValid = false;
 			} else if ( !emailPattern.test(email) ) {
 				$("#email_1").next().text("Must be a valid email address.");
@@ -30,7 +31,7 @@ $(document).ready(function() {
 			// validate the second email entry
 			var email2 = $("#email_2").val();
 			if (email2 == "") { 
-				$("#email_2").next().text("This field is required.")
+				$("#email_2").next().text("Please re-enenter your email")
 				isValid = false; 
 			} else if (email !== email2 ) { 
 				$("#email_2").next().text("Must equal first email entry.");
@@ -42,7 +43,7 @@ $(document).ready(function() {
 			// validate the first name entry
 			var firstName = $("#first_name").val().trim();
 			if (firstName == "") {
-				$("#first_name").next().text("This field is required.");
+				$("#first_name").next().text("Do you have a name?");
 				isValid = false;
 			} 
 			else {
@@ -53,7 +54,7 @@ $(document).ready(function() {
 			// validate the last name entry
 			var lastName = $("#last_name").val().trim();
 			if (lastName == "") {
-				$("#last_name").next().text("This field is required.");
+				$("#last_name").next().text("Do you have a last name?");
 				isValid = false;
 			} 
 			else {
@@ -64,7 +65,7 @@ $(document).ready(function() {
 			// validate the state entry
 			var state = $("#state").val();
 			if (state == "") {
-				$("#state").next().text("This field is required.");
+				$("#state").next().text("What state are you in?");
 				isValid = false;
 			} else if ( state.length != 2 ) {
 				$("#state").next().text("Use 2-character code.");
@@ -77,7 +78,7 @@ $(document).ready(function() {
 			//validate the zipCode
 			var zip = $("#zip").val();
 			if (zip == "") {
-				$("#zip").next().text("This field is required.");
+				$("#zip").next().text("What is your Zip Code?");
 				isValid = false;
 			} else if ( zip.length != 5 ) {
 				$("#zip").next().text("Enter 5-digit zip code");
@@ -85,6 +86,17 @@ $(document).ready(function() {
 			}
 			else {
 				$("#zip").next().text("");
+			}
+
+			//validate the Total
+			var total = $("#total").val()
+			if (total == "") {
+				$("#total").next().text("What is your total amount?");
+				isValid = false;
+			} 
+			else {
+				$("#total").val(total);
+				$("#total").next().text("");
 			}
 						
 			// prevent the default action of submitting the form if any entries are invalid 

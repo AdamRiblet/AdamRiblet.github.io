@@ -44,11 +44,15 @@ $(document).ready(function() {
                 total = total + 140.00;
                 order = order + '<option value="expresso">$140.00 - 10 lb. Co2</option>';
             } else if (oldURL == "images/ABC_30lb_cart_op.jpg") {
-                total = total + 700.00;
-                order = order + '<option value="latte">$700 - ABC 30 lb. Cartridge Operated</option>';
+                total = total + 400.00;
+                order = order + '<option value="latte">$400 - ABC 30 lb. Cartridge Operated</option>';
             } else if (oldURL == "images/K_class.jpg") {
                 total = total + 135.00;
                 order = order + '<option value="scone">$135.00 - K Class</option>';
+            }
+            else if (oldURL == "images/water_fire_extinguisher.jpg") {
+                total = total + 160.00;
+                order = order + '<option value="scone">$160.00 - Water Fire Extinguisher</option>';
             }
             else if (oldURL == "images/Bracket_10lb_HD_Red_Line.jpg") {
                 total = total + 104.00;
