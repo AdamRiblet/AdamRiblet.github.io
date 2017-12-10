@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     margin: 0 auto;
-    width: 650px;
+    width: 700px;
     padding: 0 2em 1em;
     border: 3px solid red;
     color: white;
@@ -22,7 +22,7 @@ input {
     margin-bottom: .5em;
 }
 span {
-	color: red;
+	color: white;
 	margin-left: .5em;
 }
 #join, #reset {
