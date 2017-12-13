@@ -1,138 +1,50 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<title>51 Fire and Safety</title>
-	<link type="text/css" rel="stylesheet" href="css/cafe.css">
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="js/cafe.js"></script>
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>CSC 175-176 Collaboration</title>
+	
+	<link rel="stylesheet" href="bootstrap.css">
 </head>
-
-<body background="images/fire_design.jpg">
-
-	<div class="topnav" id="myTopnav">
-		<ul>
-			<a class="active" href="index.html">Shop</a>
-			<li><a href="Contact.html">Contact</a></li>
-			<li><a href="About.html">About</a></li>
-			<li><a href="Validate.html">Check Out</a></li>
+<body>
+<nav class="navbar navbar-default">
+	<div class="container">
+		<!-- Collect the nav links -->
+		<a class="navbar-brand" href="#">Random Items StoreCo</a>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+			<li><a href="products.html">Products </a></li>
 		</ul>
 	</div>
+	<!-- /.container-fluid -->
+</nav>
 
+<div class="container">
+	
+	<div class="row">
+		<div class="col-md-12">
+			
+			<ul id="features">
+				<li><a id="feature-1" href="#" data-target="feature-one">Featured Product 1</a></li>
+				<li><a id="feature-2" href="#" data-target="feature-two">Featured Product 2</a></li>
+				<li><a id="feature-3" href="#" data-target="feature-three">Featured Product 3</a></li>
+			</ul>
+			
+		</div>
+	</div>
+	
+	<div id="feature-container" class="row feature-info">
+		<div class="col-md-12">
+			<img src="" id="feature-image" alt="FEATURED IMAGE" height="42" width="42">
+			<h1 id="feature-title">TITLE</h1>
+			<p id="feature-desc">DESCRIPTION</p>
+		</div>
+	</div>
+	
+</div>
 
-	<header>
-		<!--<img src="images/logo1.png" alt="Tuxedo Cat Coffee"/>-->
-	</header>
-
-	<main>
-		<form id="order_form" name="order_form" action="Validate.html" method="get">
-			<section id="menu">
-				<h2>Menu</h2>
-				<p>Click the item you would like to add it to your order.</p>
-				<ul>
-					<p>Fire Extinguishers</p>
-					<li>
-						<a href="#"><img id="images/ABC_30lb_cart_op_info.jpg" src="images/ABC_30lb_cart_op.jpg" alt="espresso" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/water_fire_extinguisher_info.jpg" src="images/water_fire_extinguisher.jpg" alt="latte" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/BC_10lb_red_line_cartridge_operated_info.png" src="images/BC_10lb_red_line_cartridge_operated.png"
-							 alt="cappuccino" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/class_D_info.png" src="images/class_D.png" alt="coffee" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/10lb_ABC_stored_pressure_info.jpg" src="images/10lb_ABC_stored_pressure.jpg" alt="10lbABC" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/K_class_info.jpg" src="images/K_class.jpg" alt="scone" /></a>
-					</li>
-
-					<p>Brackets</p>
-					<li>
-						<a href="#"><img id="images/Bracket_10lb_HD_Red_Line_info.jpg" src="images/Bracket_10lb_HD_Red_Line.jpg" alt="scone" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/20lb_cart_op_bracket_info.jpg" src="images/20lb_cart_op_bracket.jpg" alt="scone" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/Amerex_Cylinder_Galvanized_Bracket_info.jpg" src="images/Amerex_Cylinder_Galvanized_Bracket.jpg" alt="scone"
-							/></a>
-					</li>
-
-					<p>Signs</p>
-					<li>
-						<a href="#"><img id="images/sign1_info.jpg" src="images/sign1.jpg" alt="scone" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/sign2_info.png" src="images/sign2.png" alt="scone" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/sign3_info.jpg" src="images/sign3.jpg" alt="scone" /></a>
-					</li>
-
-					<p>Cabinets</p>
-					<li>
-						<a href="#"><img id="images/cabinet1_info.jpg" src="images/cabinet1.jpg" alt="scone" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/cabinet3_info.jpg" src="images/cabinet2.jpg" alt="scone" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/cabinet2_info.jpg" src="images/cabinet3.jpg" alt="scone" /></a>
-					</li>
-
-
-
-					<p>Boots </p>
-					<li>
-						<a href="#"><img id="images/boots1_info.jpg" src="images/boots1.jpg" alt="scone" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/boots3_info.jpg" src="images/boots2.jpg" alt="scone" /></a>
-					</li>
-					<li>
-						<a href="#"><img id="images/boots2_info.jpg" src="images/boots3.jpg" alt="scone" /></a>
-					</li>
-
-				</ul>
-			</section>
-
-			<section>
-				<h2>The Damage</h2>
-				<section>
-					<select id="order" name="order" size="8">
-            		</select>
-					<p id="total">&nbsp;</p>
-				</section>
-				<section id="buttons">
-					<input type="button" name="place_order" id="place_order" value="Place Order">
-					<input type="button" name="clear_order" id="clear_order" value="Clear Order">
-					<input class="button" type="button" value="Folow Us!" onclick="window.location.href='https://www.facebook.com/adam.riblet'">
-				</section>
-			</section>
-
-
-
-		</form>
-	</main>
-
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110950603-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-110950603-1');
-
-	</script>
-
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="featuredprods.js" type="text/javascript"></script>
 </body>
-
-
 </html>
