@@ -6866,6 +6866,10 @@ a {
 #feature-desc{
   color: black;
 }
+#feature-container{
+  border: 5px solid blue;
+  margin-left: 200px;
+}
 
    /*#christmas {
       
