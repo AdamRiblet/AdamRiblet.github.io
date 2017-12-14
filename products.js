@@ -29,7 +29,7 @@ $(document).ready(function(){
 		return function onClick() {
 			let details = ""
 			details = e.description
-			$("#product-details").text(details);
+			// $("#product-details").text(details);
 			$("#order-button").show();
 			$("#label").show();
 			$("#quantity").show();
